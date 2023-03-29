@@ -23,8 +23,8 @@ def _generate_qmc_points(cell_size, num_points, min_bond_length):
 def generate_qmc_bulk_configs(
     cell_size, 
     species, 
-    probabilities=None, 
-    min_bond_length=2.0, 
+    min_bond_length,
+    probabilities=None,
     bond_volume_scale=2.0, 
     n_point_clouds=4,
     n_realizations_per_cloud=4,
